@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Honk&family=Kalnia+Glaze:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>ISRO's Journey</title>
+    <style>
+        /* General Body Styling */
+        body {
+            background:linear-gradient(130deg,rgb(195, 109, 4),white);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #240101;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: auto;
+            min-height: 100vh;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        /* Floating Animation */
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        /* Header and Text Styling */
+        header {
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        .isro {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .text1 {
+            font-size: 2.5em;
+            font-weight: 100;
+            text-align: center;
+            color: #ffffff;
+            animation: slideIn 2s ease-in-out;
+        }
+        .text1i {
+            font-size: 2.5em;
+            font-weight: 50;
+            text-align: center;
+            color: #ffffff;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        /* Fade In Animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Slide In Animation */
+        @keyframes slideIn {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(0); }
+        }
+
+        /* Content Styling */
+        .content {
+            width: 80%;
+            margin: 20px;
+            font-size: 1.4em;
+            line-height: 1.8em;
+            animation: fadeInContent 3s ease-in-out;
+        }
+
+        /* Fade In Content Animation */
+        @keyframes fadeInContent {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-top: 30px;
+            text-align: center;
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 600px) {
+            .text1 {
+                font-size: 2em;
+            }
+            .content {
+                width: 90%;
+                font-size: 1em;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Audio Section for Music -->
+    <audio autoplay loop>
+        <source src="WhatsApp Audio 2024-11-16 at 03.26.06_7cb67fa1.mp3" type="audio/mpeg">
+    </audio>
+
+    <header>
+        <nav class="isro">
+            <p class="text1">What Is ISRO?</p>
+            <P class="text11">The Indian Space Research Organisation (ISRO) is the national space agency of India, responsible for the nation's space research and exploration activities. Established in 1969 and headquartered in Bengaluru, ISRO was founded by Dr. Vikram Sarabhai, who envisioned the power of space technology as a catalyst for India's development. With an initial focus on using space to solve critical issues such as communication, weather forecasting, and agricultural management, ISRO has evolved into a leading space agency with global recognition for its significant achievements. Over the years, it has gained a reputation for cost-effective, innovative space missions that have captured the attention of the world. ISRO has launched a variety of satellites and missions, including the launch of the Mars Orbiter Mission (Mangalyaan) in 2013, which made India the first country to successfully reach Mars in its debut attempt and the first to do so at such a low cost. Another milestone was the Chandrayaan missions aimed at exploring the Moon; Chandrayaan-1 confirmed the presence of water molecules on the lunar surface, while Chandrayaan-2 aimed for a soft landing at the Moon's south pole, a feat that, despite a hard landing, demonstrated India's advanced capabilities in space exploration. ISRO's extensive list of achievements also includes the development of the Polar Satellite Launch Vehicle (PSLV), known for its versatility and reliability, and the Geosynchronous Satellite Launch Vehicle (GSLV), used to launch heavier payloads into geostationary orbits. Beyond its launch vehicles and satellites, ISRO has also pioneered the development of advanced technologies like the Remote Sensing Satellite (RISAT) and the navigation satellite system known as the Indian Regional Navigation Satellite System (IRNSS), or NavIC. With a growing commitment to research and development, ISRO continues to push the boundaries of space technology through ambitious projects such as the Gaganyaan human spaceflight program, which aims to make India the fourth country in the world to send humans into space. Its achievements are not only a testament to India's engineering prowess but also represent an essential tool for societal development, contributing to advancements in communication, disaster management, natural resource monitoring, and environmental conservation. As a testament to ISRO’s growing global influence, it frequently collaborates with other space agencies like NASA, the European Space Agency (ESA), and the Russian space agency, Roscosmos. Through its impressive achievements, ISRO has inspired a generation of scientists, engineers, and students in India, proving that with determination, innovation, and strategic vision, space exploration is not limited to the wealthiest nations, but can be a field where developing countries like India can make significant strides.</P>
+            <p>&copy; Learn more about ISRO at <a href="https://www.isro.gov.in/" target="_blank">www.isro.gov.in</a></p>
+        </nav>
+    </header>
+
+    <div class="content">
+        <img src="data:image/jpeg;base64,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" alt="ISRO Logo">
+
+        <h2>ISRO's Mission</h2>
+        <p>
+            ISRO's mission is to develop space technology and use its applications for national development while pursuing space science research and planetary exploration.
+        </p>
+       
+        <h2>History of ISRO</h2>
+        <p>
+            <strong>Founding and Early Years:</strong> Established by Dr. Vikram Sarabhai, ISRO started with a focus on building indigenous capabilities to develop space technology.
+        </p>
+        <p>
+            <strong>First Satellite Launch:</strong> ISRO's first satellite, Aryabhata, was launched in 1975 by the Soviet Union, marking India's entry into space exploration.
+        </p>
+        <p>
+            <strong>The Satellite Programs:</strong> Over the years, ISRO has launched numerous satellites, including INSAT, IRS, and GSAT, providing services in telecommunications, weather forecasting, and remote sensing.
+        </p>
+       
+
+        <h2>Major ISRO Achievements</h2>
+        <p>
+            <strong>Chandrayaan-1:</strong> India’s first lunar mission, launched in 2008, discovered water molecules on the Moon’s surface.
+        </p>
+        <p>
+            <strong>Mangalyaan (Mars Orbiter Mission):</strong> Launched in 2013, ISRO’s first interplanetary mission made India the first Asian nation to reach Mars and the first in the world to do so in its maiden attempt.
+        </p>
+        <p>
+            <strong>Chandrayaan-2:</strong> A mission aimed at exploring the Moon’s south pole with an orbiter, lander (Vikram), and rover (Pragyan).
+        </p>
+        <img src="data:image/jpeg;base64,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" alt="Mars Mission">
+
+        <h2>ISRO's Technological Contributions</h2>
+        <p>
+            ISRO has contributed to advancements in satellite technology, launching satellites for communication, navigation (such as the NavIC system), and Earth observation. It has also developed cost-effective launch vehicles, including the PSLV (Polar Satellite Launch Vehicle) and GSLV (Geosynchronous Satellite Launch Vehicle).
+        </p>
+        
+
+        <h2>ISRO's Vision for the Future</h2>
+        <p>
+            ISRO’s future projects include the <strong>Gaganyaan</strong> human spaceflight mission, which will carry Indian astronauts to space, and future lunar missions like <strong>Chandrayaan-3</strong>. ISRO also plans to launch interplanetary missions such as <strong>Mangalyaan-2</strong> and conduct research through satellites focused on Earth, space, and climate studies.
+        </p>
+        
+        <h2>Why ISRO Matters</h2>
+        <p>
+            ISRO’s work represents India's commitment to leveraging space technology for development and global recognition in space exploration. Through its ambitious projects and international collaborations, ISRO continues to inspire progress and innovation in space research.
+        </p>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ISRO. All rights reserved. Learn more about ISRO at <a href="https://www.isro.gov.in/" target="_blank">www.isro.gov.in</a></p>
+    </footer>
+</body>
+</html>
